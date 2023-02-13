@@ -1,0 +1,18 @@
+input{
+  border:none;
+}
+input[type=button]{
+  background-color:#E4FDFC;
+  width: 80px;
+  height: 60px;
+  margin-top:10px;
+
+}
+.calcolatrice{
+  width: 360px;
+   background-color: #797E7D;
+
+}
+body{
+padding-left:35%;
+}
