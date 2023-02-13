@@ -1,0 +1,46 @@
+<html>
+<head>
+<script src="script/script.js">
+
+</script>
+
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="calcolatrice">
+    <div class="output">
+
+      <input id="display" value=" " disabled style="width:333px;height:40px;margin-left:10px;margin-top:10px;"></input>
+      </div>
+      <div class="tasti" style=" height: 360px;">
+        <input type="button"style="width:164px ;  margin-left: 10px;" onclick="reset()" class"btn" value="C" id="canc">
+        <input type="button" onclick="inserisci(this.value)" class"btn" value="/" name="/" disabled id="/">
+        <input type="button" onclick="inserisci(this.value)" class"btn" value="-" disabled id="-">
+
+        <br>
+        <input type="button"  style="margin-left: 10px;" onclick="inserisci(this.value)" class"btn" value="9" id="9">
+        <input type="button"  onclick="inserisci(this.value)" class"btn" value="8" id="8">
+        <input type="button" onclick="inserisci(this.value)" class"btn" value="7" id="7">
+        <input type="button" onclick="inserisci(this.value)" class"btn" value="*" name="x" disabled id="*">
+
+  <br>
+  <input type="button"  style="margin-left: 10px;"  onclick="inserisci(this.value)" class"btn" value="6" id="6">
+  <input type="button" onclick="inserisci(this.value)" class"btn" value="5" id="5">
+  <input type="button" onclick="inserisci(this.value)" class"btn" value="4" id="4">
+  <input type="button" onclick="inserisci(this.value)" class"btn" value="+" name="+" disabled id="+">
+
+        <br>
+        <input type="button"  style="margin-left: 10px;"  onclick="inserisci(this.value)"class"btn" value="3" id="3">
+        <input type="button" onclick="inserisci(this.value)" class"btn" value="2" id="2">
+      <input type="button" onclick="inserisci(this.value)" class"btn" value="1" id="1">
+
+        <input class"btn" type="button" onclick="inserisci(this.value)"  value="."  id="dot">
+
+<br>
+  <input type="button"  style="margin-left: 10px;"  onclick="inserisci(this.value)" class"btn" value="0" id="0">
+<input type="button" style="width:248px;background-color:#BDF7F3;" onclick="calc()"class"btn" value="=" id="=">
+        </div>
+    </div>
+</body>
+</html>
